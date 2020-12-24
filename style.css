@@ -1,0 +1,31 @@
+.body {
+    background-color: #142850;
+}
+
+.nav {
+    background-color: #e7e7de;
+}
+
+.button {
+    background-color: #14274e;
+}
+
+.space {
+    margin: 10px;
+}
+
+.card {
+    background-color: #27496d;
+}
+
+.text {
+    color: #e7e7de;
+}
+
+.links {
+    color: black;
+}
+
+.top {
+    margin-top: 30px;
+}
