@@ -41,30 +41,44 @@
 
   <div>
   <div class="container">
-    <div class="card mar" style="width: 66.66%;">
+    <div class="card mar" style="width: 70%;">
       <div class="card-body pad">
         <h1 class="card-title text-center text">Portfolio</h1>
       </div>
         <div class="row">
-          <img src="https://lacasanelverde.it/images/placeholder-350x350.jpg" class="card-img-bottom" style="margin: 15px 15px 15px 15px; height: 350px; width: 350px;" alt="Me">
-          <img src="https://lacasanelverde.it/images/placeholder-350x350.jpg" class="card-img-bottom" style="margin: 15px 15px 15px 15px; height: 350px; width: 350px;" alt="Me">
+          <div class="col-sm">
+            <img src="GIFs/PasswordGenerator.gif" alt="gif of password generator" class="card-img img-fluid">
+              <p class="card-text text-justify text">This project prompts the user for how many characters they would like their password to be before prompting the user to choose which types of characters they would like in their password. Next the types of characters chosen will be stored in an array before a function choses enough based on the length requirements and then randomized. Finally they are joined into a string, placed into a variable and displayed on the screen for the user.</p>
+              <p class="text">Deployed website at 
+                <a href="https://carrpw.github.io/password-generator/">Password Generator</a>
+              </p>
+          </div>
+          <div class="col-sm">
+            <img src="GIFs/WorkdayPlanner.gif" alt="gif of workday planner" class="card-img img-fluid">
+              <p class="card-text text-justify text">Set up a basic workday planner design by the hour between 0900 - 1700. I then used moment to display the actual time and made a loop so that I could display the current hour in the planner along with past and future via color coding them. I also made the text placed in each hour slot savable through using a button and local storage so that whatever the user inputs will stay even if they refresh, until they chose to get rid of it.</p>
+              <p class="text">Deployed website at 
+                <a href="https://carrpw.github.io/work-day-planner/">Workday Planner</a>
+              </p>
+          </div>
         </div>
         <div class="row">
-          <img src="https://lacasanelverde.it/images/placeholder-350x350.jpg" class="card-img-bottom" style="margin: 15px 15px 15px 15px; height: 350px; width: 350px;" alt="Me">
-          <img src="https://lacasanelverde.it/images/placeholder-350x350.jpg" class="card-img-bottom" style="margin: 15px 15px 15px 15px; height: 350px; width: 350px;" alt="Me">
-        </div>
-        <div class="row">  
-          <img src="https://lacasanelverde.it/images/placeholder-350x350.jpg" class="card-img-bottom" style="margin: 15px 15px 15px 15px; height: 350px; width: 350px;" alt="Me">
+          <div class="col-sm">
+            <img src="GIFs/GetawayPlanner.gif" alt="gif of workday planner" class="card-img img-fluid">
+              <p class="card-text text-justify text">The web application was a collaborative effort with three other developers, that allows the user to search for the best places to eat, all the micro-breweries and the weather in an 8 day forecast. The application also records a history of your previously searched cities so that you can look back at previous cities to make a decision of where you may like to visit. I completed the sections that pull all micro-breweries from a database via an API call, as well as using local storage to save the users previous searches to the page.</p>
+              <p class="text">Deployed website at 
+                <a href="https://wmdane.github.io/getaway_planner/">Getaway Planner</a>
+              </p>
+          </div>
         </div>
     </div>
   </div>
   </div>
 
-  <footer class="footer mt-auto nav" style="position:absolute; bottom: 0; width: 100%;">
+  <!-- <footer class="footer mt-auto nav" style="position:absolute; bottom: 0; width: 100%;">
     <div class="container text-center">
       <span class="text-muted">@ Copyright</span>
     </div>
-  </footer>
+  </footer> -->
     
 </body>
 </html>
